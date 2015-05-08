@@ -20,6 +20,8 @@
 		8258CBFD1AFC492D00FC0630 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258CBFB1AFC492D00FC0630 /* ENSideMenu.swift */; };
 		8258CBFE1AFC492D00FC0630 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258CBFC1AFC492D00FC0630 /* ENSideMenuNavigationController.swift */; };
 		82D7D3021AFC49EF009D8A6E /* MenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D7D3011AFC49EF009D8A6E /* MenuNavigationController.swift */; };
+		82D92D9D1AFC52E400C83D93 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D92D9C1AFC52E400C83D93 /* MenuTableViewController.swift */; };
+		82D92DA11AFC598900C83D93 /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D92DA01AFC598900C83D93 /* TaskCell.xib */; };
 		82ECB4EE1AFB541200DDDD45 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ECB4ED1AFB541200DDDD45 /* TaskTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		8258CBFB1AFC492D00FC0630 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
 		8258CBFC1AFC492D00FC0630 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		82D7D3011AFC49EF009D8A6E /* MenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuNavigationController.swift; sourceTree = "<group>"; };
+		82D92D9C1AFC52E400C83D93 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		82D92DA01AFC598900C83D93 /* TaskCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
 		82ECB4ED1AFB541200DDDD45 /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +136,7 @@
 			children = (
 				82ECB4ED1AFB541200DDDD45 /* TaskTableViewController.swift */,
 				82D7D3011AFC49EF009D8A6E /* MenuNavigationController.swift */,
+				82D92D9C1AFC52E400C83D93 /* MenuTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				823EF9F31AFAF4EF006F0BB9 /* TaskTableViewCell.swift */,
+				82D92DA01AFC598900C83D93 /* TaskCell.xib */,
 				823EF9D11AFAF19B006F0BB9 /* LaunchScreen.xib */,
 				823EF9CC1AFAF19B006F0BB9 /* Main.storyboard */,
 			);
@@ -264,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D92DA11AFC598900C83D93 /* TaskCell.xib in Resources */,
 				823EF9CE1AFAF19B006F0BB9 /* Main.storyboard in Resources */,
 				823EF9D31AFAF19B006F0BB9 /* LaunchScreen.xib in Resources */,
 				823EF9D01AFAF19B006F0BB9 /* Images.xcassets in Resources */,
@@ -286,6 +293,7 @@
 			files = (
 				82ECB4EE1AFB541200DDDD45 /* TaskTableViewController.swift in Sources */,
 				8258CBF91AFC491800FC0630 /* MyNavigationController.swift in Sources */,
+				82D92D9D1AFC52E400C83D93 /* MenuTableViewController.swift in Sources */,
 				8258CBFD1AFC492D00FC0630 /* ENSideMenu.swift in Sources */,
 				823EF9F21AFAF48F006F0BB9 /* TaskManager.swift in Sources */,
 				823EF9F41AFAF4EF006F0BB9 /* TaskTableViewCell.swift in Sources */,

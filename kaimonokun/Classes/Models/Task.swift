@@ -10,5 +10,13 @@ import Foundation
 
 struct Task {
     var title : String
+    var category : String
+
+    // initialize
+    init(title: String) {
+        self.title = title
+        self.category = "aa"
+    }
+
 }
 

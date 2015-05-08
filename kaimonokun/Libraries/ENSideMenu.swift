@@ -123,7 +123,9 @@ public class ENSideMenu : NSObject, UIGestureRecognizerDelegate {
         leftSwipeGestureRecognizer.direction = UISwipeGestureRecognizerDirection.Left
         
         if (menuPosition == .Left) {
+            // sourceViewからはどちらのスワイプもできるようにする
             sourceView.addGestureRecognizer(rightSwipeGestureRecognizer)
+            sourceView.addGestureRecognizer(leftSwipeGestureRecognizer)
             sideMenuContainerView.addGestureRecognizer(leftSwipeGestureRecognizer)
         }
         else {

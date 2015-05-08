@@ -10,12 +10,15 @@ import Foundation
 
 import UIKit
 
+// メニューの各項目に移動するためのController
+// sideMenuとRootViewの保持
+// 
 class MenuNavigationController: ENSideMenuNavigationController, ENSideMenuDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        sideMenu = ENSideMenu(sourceView: self.view, menuTableViewController: MyMenuTableViewController(), menuPosition:.Left)
+        sideMenu = ENSideMenu(sourceView: self.view, menuTableViewController: MenuTableViewController(), menuPosition:.Left)
         //sideMenu?.delegate = self //optional
         sideMenu?.menuWidth = self.view.bounds.width * 0.6 // optional, default is 160
         println(self.sideMenu?.menuWidth)

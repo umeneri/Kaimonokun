@@ -26,6 +26,7 @@ public class ENSideMenuNavigationController: UINavigationController, ENSideMenuP
             self.viewControllers = [contentViewController!]
         }
 
+        // メニュー設定の初期化
         sideMenu = ENSideMenu(sourceView: self.view, menuTableViewController: menuTableViewController, menuPosition:.Left)
         view.bringSubviewToFront(navigationBar)
     }
